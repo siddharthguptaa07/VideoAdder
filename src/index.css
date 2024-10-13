@@ -1,0 +1,61 @@
+.vid{
+   padding: 0;
+   margin:0;
+   color: red;
+   font-size:x-small;
+}
+.fp{
+display:flex;
+flex-direction: row;
+gap:10px;
+flex-wrap: wrap;
+/* position:relative;  */
+margin-top: 50px;
+
+
+}
+.details{
+margin: 0;
+padding: 0;
+display:flex;
+flex-direction: column;
+width: 140px;
+}
+.views{
+   font-size:xx-small;
+}
+.channelName{
+   font-size:x-small;
+   font-weight: 400;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.btn{
+   border: 1px solid rgb(106, 106, 199);
+   border-radius: 5px;
+   background-color: aqua;
+   color:blue
+}
+.upper{
+   /* display:block; */
+   width:100%;
+   height:40px;
+   border:1px solid rgb(132, 132, 196);
+   background-color: rgb(101, 150, 150);
+   margin-bottom: 25px;
+   margin-right: 0px;
+   position :fixed;
+   margin-top: 0px;
+
+ 
+  
+}
+.papa{
+   position:relative;
+   margin: 0;
+   padding: 0;
+   width:100%;
+   height: 100vh;
+   display:flex;
+   flex-direction: column;
+}
